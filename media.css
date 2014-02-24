@@ -1,0 +1,35 @@
+ul {
+	height: 30%;
+	margin-top: 7%;
+}
+
+ul li {
+	list-style: none;
+	float: left;
+	width: 30%;
+	margin-right: 3%;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+	ul li a {
+		font: 15px/25px "Helvetica Neue", sans-serif;
+		color: #7c786f;
+		text-decoration: none;
+	}
+	
+	ul li a h3 {
+		margin-bottom: -20px;
+	}
+	
+	ul li a h3:hover {
+		color: #59564f;
+	}
+	
+	ul li span.link {
+	    display: block;
+	    width: 100%;
+	    
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	}
