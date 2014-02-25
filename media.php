@@ -16,7 +16,7 @@
   <li><a href="contact.php">Contact</a></li>
 </ul>
 		<div class="jumbotron">
-  <h2> Vous pouvez me retrouver sur tout ces média !</h2>
+  <h2> Vous pouvez me retrouver sur tous ces médias !</h2>
   <p><a href="http://www.twitter.com/remy_mazabraud" class="zocial twitter">@remy_mazabraud</a>
 	<a href="https://bitbucket.org/remy_mazabraud" class="zocial bitbucket">Fork from Bitbucket</a>
 	<a href="http://www.blog.lezarius.eu" class="zocial instapaper">Read me on my blog</a></p>
