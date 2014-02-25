@@ -21,10 +21,10 @@
 
 		<p align="center"><img src="Logo.svg" width="400" height="300"></p>
 		<article align="center">
-			<h4>Bienvenue ici,</h4>
-			<p>Vous ête un peux chez moi, se site regroupe toute mes créations,
-			 passé, présent, et futur !</p>
-			 <p>Vous pouvez trouver le moyen de me contactez dans la partie "Contact"!</p>
+			<h4>Bienvenue</h4>
+			<p>Ici, vous êtes un peu chez moi, ce site regroupe toutes mes créations,
+			 passées, présentes, et futures !</p>
+			 <p>Vous pouvez trouver le moyen de me contacter dans la partie "Contact"!</p>
 		</article>
 		</div>
 
