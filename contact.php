@@ -87,21 +87,21 @@ if(isset($_POST['submit'])) {
       <div class="col-md-6 col-md-push-3">
         <form role="form" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" id="contactform">
           <fieldset>
-            <legend>Envoyé moi un petit mot !</legend>
+            <legend>Envoyez-moi un petit mot !</legend>
 
             <?php if(isset($hasError)) { //If errors are found ?>
-              <p class="alert alert-danger">Verifié les champs que vous avez remplie. Merci.</p>
+              <p class="alert alert-danger">Verifiez les champs que vous avez remplis. Merci.</p>
             <?php } ?>
 
             <?php if(isset($emailSent) && $emailSent == true) { //If email is sent ?>
               <div class="alert alert-success">
                 <p><strong>Message envoyé par un petit chinois!</strong></p>
-                <p>Merci pour le petit mot, <strong><?php echo $name;?></strong>! Ton message ma bien était transmie par le livreur chinois je répondrais au plus vite.</p>
+                <p>Merci pour le petit mot, <strong><?php echo $name;?></strong>! Ton message ma bien été transmis par le livreur chinois, je répondrais au plus vite.</p>
               </div>
             <?php } ?>
 
             <div class="form-group">
-              <label for="name">Ton Nom/Prenom<span class="help-required">*</span></label>
+              <label for="name">Ton Nom/Prénom<span class="help-required">*</span></label>
               <input type="text" name="contactname" id="contactname" value="" class="form-control required" role="input" aria-required="true" />
             </div>
 
@@ -123,7 +123,7 @@ if(isset($_POST['submit'])) {
 
 
             <div class="form-group">
-              <label for="subject">Subject<span class="help-required">*</span></label>
+              <label for="subject">Sujet<span class="help-required">*</span></label>
               <select name="subject" id="subject" class="form-control required" role="select" aria-required="true">
                 <option></option>
                 <option>Une sugestion ?</option>
